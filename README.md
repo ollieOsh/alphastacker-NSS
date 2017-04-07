@@ -1,0 +1,1 @@
+creating a function to incrementally print the alphabet to the console
