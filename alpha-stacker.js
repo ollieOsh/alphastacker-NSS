@@ -9,7 +9,9 @@ function stackLetters (theAlphabetArray) {
       outputs the letters.
      */
      for(var i = 0; i < theAlphabetArray.length; i++) {
-     	
+     	if(i % 3 === 0){
+     		alphString += " "
+     	}
      	alphString += theAlphabetArray[i];
      	console.log(alphString);
      }
